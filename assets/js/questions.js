@@ -1,4 +1,4 @@
-// list of all questions, choices, and answers
+// creating variable for questions which includes the title, choices, and answers 
 var questions = [
     {
       title: 'Inside which HTML element do we put the JavaScript?',
@@ -22,14 +22,12 @@ var questions = [
       answer: 'function myFunction()',
     },
     {
-      title:
-        'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
+      title: 'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
       choices: ['if i <> 5', 'if i =! 5 then', 'if (i <> 5)', 'if (i != 5)'],
       answer: 'if (i != 5)',
     },
     {
-      title:
-        'How can you add a comment in a JavaScript?',
+      title: 'How can you add a comment in a JavaScript?',
       choices: ['This is a comment', '<!--This is a comment-->', '//This is a comment', '~~~~Comment~~~~'],
       answer: '//This is a comment',
     },
